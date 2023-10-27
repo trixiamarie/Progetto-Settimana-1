@@ -71,7 +71,7 @@ button{
 
 .section2{
     text-align: center;
-    padding: 3rem;
+    padding: 3rem 0rem 3rem 0rem;
 }
 
 .s2{
@@ -101,7 +101,6 @@ li p:first-child{
 
 .section2 ul{
     text-align: left;
-    padding: 2rem;
     list-style-type: none;
 }
 
@@ -180,13 +179,17 @@ q{
 .footer{
     background-color:#25a2c3;
     color: #c8e7f0;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    padding: 1rem;
 }
 
 .footer ul{
-    font-size: 1rem;
+    font-size: 1.1rem;
+    list-style-type: none;
+    text-align: left;
+    width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer a{
@@ -199,10 +202,11 @@ q{
 }
 
 .footer hr{
-    width: 11.5rem;
+    width: 17rem;
 }
+
 .footer h3{
     color: white;
-    font-size:2rem;
+    font-size:3.1rem;
     padding: 2.5rem 1rem 1rem 1rem;
 }
