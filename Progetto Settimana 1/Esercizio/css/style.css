@@ -1,0 +1,183 @@
+/* Your styles here */
+
+/*GENERALI*/
+
+body{
+    color:#393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65rem;
+}
+
+.container{
+    max-width: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+/*HEADER*/
+
+header{
+    background-color: black;
+}
+
+
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 100%;
+    padding: 2em;
+}
+
+/*MAIN*/
+
+/*SECTION 1*/
+
+.section1{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 2em;
+}
+
+.section1 h1{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+    
+}
+
+button{
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    margin-top: 2rem;
+}
+
+/*SECTION 2*/
+
+.section2 div img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 100%;
+    padding: 1rem;
+}
+
+li p:first-child{
+    color: #25a2c3;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.section2 ul{
+    text-align: center;
+    padding:2em;
+    list-style-type: none;
+}
+
+/*SECTION 3*/
+.section3{
+    background-color:#e22d0e;
+    color: white;
+    text-align: center;
+    padding:2em;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+
+.section3 h4{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section3 p{
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.ceo p{
+    margin-bottom: 0%;
+    font-style: normal;
+}
+
+.ceo p:first-child{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.ceo p:last-child{
+    font-size: 0.9rem;
+}
+
+/*SECTION 4*/
+.section4 div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.schede{
+    border: #dee1e3 solid 0.1em;
+    text-align: center;
+    margin: 1.5em;
+}
+
+.schede p:first-child{
+    font-weight: bold;
+    color:#25a2c3;
+    padding: 1rem;
+}
+
+.schede p:last-child{
+    padding: 0rem 1rem 3rem 1rem;
+}
+
+/*FOOTER*/
+.footer{
+    background-color:#25a2c3;
+    color: #c8e7f0;
+    text-align: center;
+}
+
+.footer ul{
+    font-size: 1rem;
+}
+
+.footer a{
+    color: #c8e7f0;
+}
+
+.footer p {
+    padding:1rem 1rem 2.5rem 1rem;
+    font-size: 0.9rem ;
+}
+
+.footer hr{
+    width: 11.5rem;
+}
+.footer h3{
+    color: white;
+    font-size:2rem;
+    padding: 2.5rem 1rem 1rem 1rem;
+}
